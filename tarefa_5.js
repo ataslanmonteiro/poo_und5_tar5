@@ -12,7 +12,7 @@ class Aparelho {
 }
 
 // Subclasse Televisão
-class Televisão extends Aparelho {
+class Televisao extends Aparelho {
   ligar() {
     console.log("Televisão ligada.");
   }
@@ -37,15 +37,15 @@ class Microondas extends Aparelho {
   }
 }
 
-// Programa de teste
-class testeAparelhos = () => {
-  const tv = new Televisão();
+// Função de teste
+const testeAparelhos = () => {
+  const tv = new Televisao();
   const microondas = new Microondas();
 
   tv.ligar();
   tv.exibir();
   tv.desligar();
-  
+
   microondas.ligar();
   microondas.exibir();
   microondas.desligar();
