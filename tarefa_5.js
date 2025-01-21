@@ -9,6 +9,7 @@ class Aparelho {
   exibir() {
     console.log("Exibir informações do aparelho.");
   }
+}
 
 // Subclasse Televisão
 class Televisão extends Aparelho {
@@ -50,4 +51,5 @@ class testeAparelhos = () => {
   microondas.desligar();
 };
 
-}
+// Executa o teste
+testeAparelhos();
